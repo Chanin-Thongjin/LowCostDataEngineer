@@ -30,3 +30,4 @@
 - https://github.com/fonylew/simple-cloud-functions-to-bigquery
 - https://www.coindesk.com/coindesk-api
 - https://api.coindesk.com/v1/bpi/currentprice/THB.json
+- https://cloud.google.com/pricing?hl=en
