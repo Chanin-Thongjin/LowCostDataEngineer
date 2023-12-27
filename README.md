@@ -1,33 +1,28 @@
 # LOW COST DATA PIPELINE
 ![Alt text](/image/pipeline.png)
-<style>
-   img {
-      width: 400px;
-   }
-</style>
 
 ## Step
 1. Create Big Query
 2. Create Cloud Function, 
    >2.1 set the type of trigger is Cloud Pub/Sub  set Topic (Can create new topic)
-   <img src="./image/trigger.png" >
+   <img src="./image/trigger.png" width="400">
 
    >2.2 set runtime environment variables
-   <img src="./image/environment.png" >
+   <img src="./image/environment.png" width="400">
 
    >2.3 set Code
 
-   <img src="./image/Code.png" >
+   <img src="./image/Code.png" width="400">
 
    > 2.4 set requirements
-   <img src="./image/requirements.png" >
+   <img src="./image/requirements.png" width="400">
 
 3. Create Google Cloud Schedule and test crick Run
-   <img src="./image/Schedule.png" >
-   <img src="./image/Schedule-1.png" >
+   <img src="./image/Schedule.png" width="400">
+   <img src="./image/Schedule-1.png" width="400">
 4. Check on Big Query
    
-   <img src="./image/Check.png" >
+   <img src="./image/Check.png" width="400">
    
 ## About total the cost in the pipeline
 - Bigquery : use 5 GB/month in this case we insert 1 row assume 1 KB that it free for 5 million rows
