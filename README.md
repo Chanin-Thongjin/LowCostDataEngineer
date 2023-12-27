@@ -1,7 +1,7 @@
 # LOW COST DATA PIPELINE
 ![Alt text](/image/pipeline.png)
 
-## Step
+## Steps
 1. Create Big Query
 2. Create Cloud Function, 
    >2.1 set the type of trigger is Cloud Pub/Sub  set Topic (Can create new topic)
